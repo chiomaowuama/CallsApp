@@ -76,3 +76,11 @@ svg{
     box-shadow: 1px 4px 10px #c5c3c3;
     font-family: "Bai Jamjuree";
 }
+/* ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* phones */
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
+
+}
