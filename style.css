@@ -76,11 +76,163 @@ svg{
     box-shadow: 1px 4px 10px #c5c3c3;
     font-family: "Bai Jamjuree";
 }
+@media only screen and (min-width: 200px) and (max-width: 767px){
+  
+ 
+}
 /* ipad */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+    header{
+        background-image: url('assets/bg-header-desktop.png');
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        /* gap:2rem; */
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 8%;
+    }
+    svg{
+        width:200px;
+        height: 200px;
+    }
+    .screen-text{
+        font-family: "Bai Jamjuree";
+        text-align: center;
+        margin-bottom: 3%;      
+    }
+    .screen-text h1{
+        font-size: 40px;
+        font-weight:650;
+        color:#4C545C;
+        margin-bottom: 3%;
+    }
+    .screen-text p{
+        color:#9EABB2;
+        width:80%;
+        margin: 0px auto;
+        font-size: 20px;
+    }
+    .top-buttons{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap:2rem;
+    }
+    .teal-button{
+        background: #26BBA4;
+        padding: 20px 35px;
+        width: 80%;
+        color:#ffff;
+        border:none;
+        border-bottom: 3px solid #1d8a79;
+        font-weight: 500;
+        border-radius: 35px;
+        font-size: 26px;
+        box-shadow: 1px 4px 10px #84ded1;
+        font-family: "Bai Jamjuree";
+    }
+    .blue-button{
+        background-color: #6174FF;
+        padding: 20px 35px;
+        width: 80%;
+        color:#ffff;
+        border:none;
+        border-bottom: 3px solid #414eb3;
+        font-weight: 500;
+        border-radius: 35px;
+        font-size: 26px;
+        box-shadow: 1px 4px 10px #c5c3c3;
+        font-family: "Bai Jamjuree";
+    }
 }
 /* phones */
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
-
+    header{
+        background-image: url('assets/bg-header-desktop.png');
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        /* gap:2rem; */
+        justify-content: center;
+        align-items: center;
+        /* border:2px solid red; */
+    }
+    .logo{
+        /* border:2px solid green; */
+        margin-bottom: 5%;
+    
+        
+    }
+    svg{
+        width:90px;
+    }
+    .screen-text{
+        font-family: "Bai Jamjuree";
+        /* border:2px solid yellow; */
+        text-align: center;
+        margin-bottom: 3%;
+        
+    }
+    .screen-text h1{
+        /* border:2px solid green;  */
+        width:80%;
+        margin:0px auto;
+        font-size: 30px;
+        font-weight:650;
+        color:#4C545C;
+        margin-bottom: 5%;
+    }
+    .screen-text p{
+        color:#9EABB2;
+        width:75%;
+        margin: 0px auto;
+        font-size: 15px;
+        /* border:2px solid red; */
+    }
+    .top-buttons{
+        /* border:2px solid yellow; */
+        /* font-family: "Bai Jamjuree"; */
+        display:flex;
+        flex-direction: column;
+        /* border: 2px solid yellow; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap:1rem;
+    }
+    .teal-button{
+        background: #26BBA4;
+        padding: 14px 35px;
+        width: 80%;
+        color:#ffff;
+        border:none;
+        border-bottom: 3px solid #1d8a79;
+        font-weight: 500;
+        border-radius: 35px;
+        font-size: 16px;
+        box-shadow: 1px 4px 10px #84ded1;
+        font-family: "Bai Jamjuree";
+    }
+    .blue-button{
+        background-color: #6174FF;
+        padding: 14px 35px;
+        width: 80%;
+        color:#ffff;
+        border:none;
+        border-bottom: 3px solid #414eb3;
+        font-weight: 500;
+        border-radius: 35px;
+        font-size: 16px;
+        box-shadow: 1px 4px 10px #c5c3c3;
+        font-family: "Bai Jamjuree";
+    }
 }
