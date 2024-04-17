@@ -8,32 +8,32 @@ header{
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    gap:2rem;
-    justify-content: center;
-    align-items: center; */
-}
-.logo{
-    border:2px solid green;
-    display:flex;
+    /* gap:2rem; */
     justify-content: center;
     align-items: center;
+}
+.logo{
+    /* border:2px solid green; */
+    margin-bottom: 3%;
+
     
 }
 svg{
-    border:red 2px solid ;
+    width:110px;
 }
 .screen-text{
     font-family: "Bai Jamjuree";
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     text-align: center;
+    margin-bottom: 3%;
     
 }
 .screen-text h1{
-    border:2px solid green; 
-    font-size: 37px;
-    font-weight:600;
+    /* border:2px solid green;  */
+    font-size: 39px;
+    font-weight:650;
     color:#4C545C;
     margin-bottom: 3%;
 }
@@ -42,5 +42,37 @@ svg{
     width:65%;
     margin: 0px auto;
     font-size: 18px;
-    border:2px solid red;
+    /* border:2px solid red; */
+}
+.top-buttons{
+    /* border:2px solid yellow; */
+    /* font-family: "Bai Jamjuree"; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.teal-button{
+    background: #26BBA4;
+    padding: 14px 35px;
+    color:#ffff;
+    border:none;
+    border-bottom: 3px solid #1d8a79;
+    font-weight: 500;
+    border-radius: 35px;
+    font-size: 16px;
+    box-shadow: 1px 4px 10px #84ded1;
+    font-family: "Bai Jamjuree";
+}
+.blue-button{
+    background-color: #6174FF;
+    padding: 14px 35px;
+    color:#ffff;
+    border:none;
+    border-bottom: 3px solid #414eb3;
+    font-weight: 500;
+    border-radius: 35px;
+    font-size: 16px;
+    box-shadow: 1px 4px 10px #c5c3c3;
+    font-family: "Bai Jamjuree";
 }
