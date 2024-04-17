@@ -15,8 +15,16 @@ header{
     align-items: center;
 }
 .screen-text{
-    /* font-family: "Bai Jamjuree"; */
+    font-family: "Bai Jamjuree";
     border:2px solid yellow;
     text-align: center;
 }
-.screen-text
+.screen-text h1{
+    border:2px solid green; 
+    font-size: 37px;
+    font-weight:600;
+    color:#4C545C;
+}
+.screen-text p{
+    color:#9EABB2;
+}
