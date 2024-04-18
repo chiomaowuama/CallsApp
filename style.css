@@ -159,6 +159,11 @@ section{
     width: 70%;
     height:550px;
 }
+
+/* the icons part */
+.all-texticons{
+    border:2px solid yellow;
+}
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
  
