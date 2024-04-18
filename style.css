@@ -143,6 +143,20 @@ section{
     line-height: 1.5rem;
 
 }
+
+/* the devices part */
+.phone-tab{
+    border:2px solid yellow;
+    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.phone-tab img{
+    width: 70%;
+    height:90%;
+    border: 2px solid yellow;
+}
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
  
