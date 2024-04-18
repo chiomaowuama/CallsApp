@@ -148,9 +148,9 @@ section{
 .phone-tab{
     border:2px solid yellow;
     height: 100vh;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .phone-tab img{
     width: 70%;
