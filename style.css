@@ -96,6 +96,53 @@ svg{
     font-size: 15px;
     /* border:2px solid red; */
 }
+/* computer side  */
+section{
+    display:flex;
+    height: 100vh;
+    gap: 4%;
+}
+.computer-image{
+    width:53%; 
+}
+.computer-image img{
+    width: 99%;
+    height: 92%;
+    margin-left: -5%;
+    margin-top: 6%;
+}
+
+.divright-texts{
+    width:40%;
+}
+/* text part for the second */
+.divright-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.screen-text3{
+    font-family: "Bai Jamjuree";
+    width:100%;
+    text-align: start;
+    margin-bottom: 1%;
+}
+.screen-text3 h5{
+    font-size: 22px;
+    color:#4C545C;
+    font-weight:600;
+    color:#4C545C;
+    margin-bottom: 2%;
+}
+.screen-text3 p{
+    color:#9EABB2;
+    width:60%;
+    font-size: 14px;
+    line-height: 1.5rem;
+
+}
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
  
