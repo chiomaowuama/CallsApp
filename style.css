@@ -76,7 +76,7 @@ svg{
 /* keep track of your snippet */
 .screen-text2{
     font-family: "Bai Jamjuree";
-    /* border:2px solid yellow; */
+    border:2px solid yellow;
     text-align: center;
     margin-bottom: 3%;
     margin-top: 2%;
@@ -161,11 +161,16 @@ section{
 }
 
 /* the icons part */
+.text-icons{
+    border:2px solid red;
+    
+}
 .all-texticons{
     display:flex;
     padding: 0 7%;
     margin: 5% 0;
     border:2px solid green;
+    margin-bottom: 9%;
 }
 .eachicon{
     width: 33%;
@@ -199,6 +204,7 @@ section{
 .googleicon{
     display: flex;
     align-items: center;
+    border:2px solid blue;
 }
 .the-icons{
     width: 80%;
