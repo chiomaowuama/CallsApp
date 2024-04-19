@@ -213,6 +213,14 @@ section{
 }
 
 /* footer */
+footer{
+    /* border:2px solid yellow; */
+    height: 100vh;
+}
+.footer-firstpath{
+    border:2px solid green;
+    height: 75%;
+}
 .screen-text3{
     font-family: "Bai Jamjuree";
     /* border:2px solid yellow; */
@@ -234,6 +242,31 @@ section{
     margin: 0px auto;
     font-size: 15px;
     /* border:2px solid red; */
+}
+.second-footerpath{
+    border:2px solid red;
+    display: flex;
+    height: 25%;
+    background-color:#F2F2F2;
+}
+.second-one{
+    border:2px solid red;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.second-one img{
+    border:2px solid green
+}
+.second-two{
+    border: 2px solid yellow;
+    width: 55%;
+}
+.second-three{
+    width: 20%;
+    border:2px solid green
 }
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
