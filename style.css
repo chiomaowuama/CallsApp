@@ -162,11 +162,9 @@ section{
 
 /* the icons part */
 .all-texticons{
-    border:2px solid yellow;
     display:flex;
     /* justify-content: center;
     align-items: center; */
-    gap:1.3rem;
     padding: 0 7%;
     margin: 5% 0;
 }
@@ -176,6 +174,7 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .eachicon svg{
     width: 40px;
@@ -191,11 +190,11 @@ section{
 }
 .eachicon p{
     color:#9EABB2;
-    width:85%;
+    width:87%;
     text-align: center;
-    line-height: 1.2rem;
+    line-height: 1.8rem;
     /* margin: 0px auto; */
-    font-size: 15px;
+    font-size: 16px;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
