@@ -163,10 +163,9 @@ section{
 /* the icons part */
 .all-texticons{
     display:flex;
-    /* justify-content: center;
-    align-items: center; */
     padding: 0 7%;
     margin: 5% 0;
+    border:2px solid green;
 }
 .eachicon{
     width: 33%;
@@ -195,6 +194,22 @@ section{
     line-height: 1.8rem;
     /* margin: 0px auto; */
     font-size: 16px;
+}
+/* the google icons */
+.googleicon{
+    display: flex;
+    align-items: center;
+}
+.the-icons{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.the-icons img{
+    align-self: baseline;
+    width:fit-content;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
