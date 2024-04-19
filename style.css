@@ -60,6 +60,9 @@ svg{
     box-shadow: 1px 4px 10px #84ded1;
     font-family: "Bai Jamjuree";
 }
+.teal-button:hover{
+    background-color: #1dcbb1;
+}
 .blue-button{
     background-color: #6174FF;
     padding: 14px 35px;
@@ -72,7 +75,9 @@ svg{
     box-shadow: 1px 4px 10px #c5c3c3;
     font-family: "Bai Jamjuree";
 }
-
+.blue-button:hover{
+    background-color: #7986ed;
+}
 /* keep track of your snippet */
 .screen-text2{
     font-family: "Bai Jamjuree";
@@ -355,6 +360,9 @@ footer{
         box-shadow: 1px 4px 10px #84ded1;
         font-family: "Bai Jamjuree";
     }
+    .teal-button:hover{
+        background: #1dcbb1;
+    }
     .blue-button{
         background-color: #6174FF;
         padding: 20px 35px;
@@ -368,7 +376,9 @@ footer{
         box-shadow: 1px 4px 10px #c5c3c3;
         font-family: "Bai Jamjuree";
     }
-
+    .blue-button:hover{
+        background-color: #7986ed;
+    }
     /* computer side  */
     section{
         display:flex;
@@ -650,6 +660,9 @@ footer{
         box-shadow: 1px 4px 10px #84ded1;
         font-family: "Bai Jamjuree";
     }
+    .teal-button:hover{
+        background-color: #1dcbb1;
+    }
     .blue-button{
         background-color: #6174FF;
         padding: 16px 35px;
@@ -662,6 +675,9 @@ footer{
         font-size: 16px;
         box-shadow: 1px 4px 10px #c5c3c3;
         font-family: "Bai Jamjuree";
+    }
+    .blue-button:hover{
+        background-color: #7986ed;
     }
     /*keep track */
     .screen-text2{
