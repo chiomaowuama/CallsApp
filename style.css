@@ -211,6 +211,30 @@ section{
 .the-icons svg{
     align-self: baseline;
 }
+
+/* footer */
+.screen-text3{
+    font-family: "Bai Jamjuree";
+    /* border:2px solid yellow; */
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    
+}
+.screen-text3 h1{
+    /* border:2px solid green;  */
+    font-size: 32px;
+    font-weight:600;
+    color:#4C545C;
+    margin-bottom: 2%;
+}
+.screen-text3 svg{
+    color:#9EABB2;
+    width:46%;
+    margin: 0px auto;
+    font-size: 15px;
+    /* border:2px solid red; */
+}
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
  
