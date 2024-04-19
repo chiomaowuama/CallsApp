@@ -162,8 +162,6 @@ section{
 
 /* the icons part */
 .text-icons{
-    /* border:2px solid red; */
-    
 }
 .all-texticons{
     display:flex;
@@ -362,6 +360,68 @@ section{
         width: 80%;
         height:400px;
     }
+    /* the icons */
+    .text-icons{
+    }
+    .all-texticons{
+        display:flex;
+        flex-direction: column;
+        padding: 0 7%;
+        margin-left:  0;
+        margin-right:  0;
+        margin-top: 15%;
+        margin-bottom: 9%;
+    }
+    .eachicon{
+        width: 90%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .eachicon svg{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 8%;
+    }
+    .eachicon h3{
+        color:#4C545C;
+        font-size: 35px;
+        font-weight:600;
+        color:#4C545C;
+        margin-bottom: 3%;
+        font-family: "Bai Jamjuree";
+    }
+    .eachicon p{
+        color:#9EABB2;
+        width:97%;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 27px;
+    }
+    /* the google icons */
+    .googleicon{
+        display: flex;
+        padding-bottom: 5%;
+        margin: 8% 0;
+    }
+    .the-icons{
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding:5% 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .the-icons svg{
+        align-self: center;
+        padding: 2% 0%;
+        width:65%;
+        height:120px;
+    }
 }
 /* phones */
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
@@ -529,5 +589,67 @@ section{
 .phone-tab img{
     width: 80%;
     height:220px;
+}
+
+/* the icon and the text */
+.text-icons{
+}
+.all-texticons{
+    display:flex;
+    flex-direction: column;
+    padding: 0 7%;
+    margin-left:  0;
+    margin-right:  0;
+    margin-top: 15%;
+    margin-bottom: 9%;
+}
+.eachicon{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.eachicon svg{
+    width: 40px;
+    margin-bottom: 8%;
+}
+.eachicon h3{
+    color:#4C545C;
+    font-size: 22px;
+    font-weight:600;
+    color:#4C545C;
+    margin-bottom: 2%;
+    font-family: "Bai Jamjuree";
+}
+.eachicon p{
+    color:#9EABB2;
+    width:97%;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 17px;
+}
+/* the google icons */
+.googleicon{
+    display: flex;
+    padding-bottom: 5%;
+    margin: 8% 0;
+}
+.the-icons{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:5% 0;
+    justify-content: center;
+    align-content: center;
+    border:2px solid yellow;
+}
+.the-icons svg{
+    align-self: center;
+    padding: 2% 0%;
+    width:65%;
 }
 }
