@@ -76,7 +76,7 @@ svg{
 /* keep track of your snippet */
 .screen-text2{
     font-family: "Bai Jamjuree";
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     text-align: center;
     margin-bottom: 3%;
     margin-top: 2%;
@@ -162,14 +162,13 @@ section{
 
 /* the icons part */
 .text-icons{
-    border:2px solid red;
+    /* border:2px solid red; */
     
 }
 .all-texticons{
     display:flex;
     padding: 0 7%;
     margin: 5% 0;
-    border:2px solid green;
     margin-bottom: 9%;
 }
 .eachicon{
@@ -197,14 +196,12 @@ section{
     width:87%;
     text-align: center;
     line-height: 1.8rem;
-    /* margin: 0px auto; */
     font-size: 16px;
 }
 /* the google icons */
 .googleicon{
     display: flex;
     align-items: center;
-    border:2px solid blue;
 }
 .the-icons{
     width: 80%;
@@ -213,9 +210,8 @@ section{
     justify-content: space-around;
     align-content: center;
 }
-.the-icons img{
+.the-icons svg{
     align-self: baseline;
-    width:fit-content;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px){
   
